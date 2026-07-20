@@ -1,9 +1,12 @@
 ## Hi, I'm David 👋
 
 <!-- usage:start -->
-### 🤖 My AI usage, measured
 
-Every token my AI coding agents burn is metered — Claude Code, Codex CLI, and Antigravity session logs sync to Postgres via a small usage-collector script, and a nightly Action rebuilds this section from the database.
+
+Check out my token usage: Claude Code, Codex CLI, and Antigravity
+
+---
+Session logs sync to Postgres via a small usage-collector script, and a nightly Action rebuilds this section from the database.
 
 **2.35B tokens processed** · **15,829 requests** · **11 models** · since March 2026
 
