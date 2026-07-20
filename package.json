@@ -1,0 +1,11 @@
+{
+  "name": "uwdivad-profile",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "update": "node scripts/update-usage.mjs"
+  },
+  "dependencies": {
+    "pg": "^8.13.0"
+  }
+}
