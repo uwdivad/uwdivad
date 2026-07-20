@@ -5,11 +5,11 @@
 
 Every token my AI coding agents burn is metered — Claude Code, Codex CLI, and Antigravity session logs sync to Postgres via a small usage-collector script, and a nightly Action rebuilds this section from the database.
 
-**2.27B tokens processed** · **15,136 requests** · **11 models** · since March 2026
+**2.28B tokens processed** · **15,183 requests** · **11 models** · since March 2026
 
 | Agent | Requests | Input | Output | Cache reads |
 |---|--:|--:|--:|--:|
-| 🟠 Claude Code (Anthropic) | 13,971 | 2.4M | 15.0M | 2.08B |
+| 🟠 Claude Code (Anthropic) | 14,018 | 2.4M | 15.0M | 2.08B |
 | ⚪ Codex CLI (OpenAI) | 993 | 4.9M | 449K | 86.0M |
 | 🔵 Antigravity (Google) | 172 | 1.1M | 183K | 15.4M |
 
@@ -18,7 +18,7 @@ Every token my AI coding agents burn is metered — Claude Code, Codex CLI, and 
 
 | Model | Output | Requests |
 |---|--:|--:|
-| claude-fable-5 | 8.8M | 7,119 |
+| claude-fable-5 | 8.8M | 7,166 |
 | claude-opus-4-8 | 4.3M | 3,873 |
 | claude-sonnet-4-6 | 1.3M | 1,866 |
 | claude-sonnet-5 | 471K | 637 |
