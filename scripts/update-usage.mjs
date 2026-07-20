@@ -81,10 +81,12 @@ const series = Array.from({ length: 30 }, (_, i) => {
   return { day: key, tokens: byDay.get(key) ?? 0 };
 });
 const max = Math.max(...series.map((s) => s.tokens), 1);
-const BLOCKS = '▁▂▃▄▅▆▇█';
-const spark = series
-  .map((s) => BLOCKS[Math.min(7, Math.floor((s.tokens / max) * 8))])
-  .join('');
+const ROWS = 6;
+const heights = series.map((s) => (s.tokens === 0 ? 0 : Math.max(1, Math.ceil((s.tokens / max) * ROWS))));
+const chart = Array.from({ length: ROWS }, (_, i) => {
+  const threshold = ROWS - i;
+  return heights.map((h) => (h >= threshold ? '█' : ' ')).join(' ');
+}).join('\n');
 const peak = series.reduce((a, b) => (b.tokens > a.tokens ? b : a));
 const peakLabel = new Date(`${peak.day}T00:00:00Z`).toLocaleDateString('en-US', {
   month: 'short', day: 'numeric', timeZone: 'UTC',
@@ -117,7 +119,7 @@ ${models
 **Last 30 days** — tokens/day, peak ${compact(peak.tokens)} on ${peakLabel}
 
 \`\`\`text
-${spark}
+${chart}
 \`\`\`
 
 <sub>Updated ${new Date().toISOString().slice(0, 10)} · input/output exclude cache reads</sub>
