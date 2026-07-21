@@ -1,12 +1,8 @@
 ## Hi, I'm David 👋
 
-Senior Software Engineer focused on backend systems, distributed
-platforms, and applied AI.
+Senior Software Engineer with 10+ years of experience building backend systems, internal platforms, workflow automation, and applied AI products.
 
-I have 10+ years of experience building production software, internal
-platforms, and workflow automation. My recent work includes production
-LLM pipelines, MCP-based tools, and Kubernetes services.
-
+My recent work includes production LLM pipelines, MCP-based tools, and Kubernetes services.
 <!-- usage:start -->
 
 ---
