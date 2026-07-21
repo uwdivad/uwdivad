@@ -1,12 +1,23 @@
 ## Hi, I'm David 👋
 
+Senior Software Engineer focused on backend systems, distributed
+platforms, and applied AI.
+
+I have 10+ years of experience building production software, internal
+platforms, and workflow automation. My recent work includes production
+LLM pipelines, MCP-based tools, and Kubernetes services.
+
 <!-- usage:start -->
 
+---
 
-Check out my token usage: Claude Code, Codex CLI, and Antigravity
+## AI Development Activity
+
+I built a small usage pipeline that collects local agent sessions in
+Postgres and uses a nightly GitHub Action to regenerate the dashboard below.
+
 
 ---
-Session logs sync to Postgres via a small usage-collector script, and a nightly Action rebuilds this section from the database.
 
 **2.35B tokens processed** · **15,829 requests** · **11 models** · since March 2026
 
