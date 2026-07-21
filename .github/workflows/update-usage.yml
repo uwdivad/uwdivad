@@ -2,7 +2,8 @@ name: Update usage stats
 
 on:
   schedule:
-    - cron: "17 6 * * *"
+    - cron: '0 0 * * *'
+      timezone: 'America/New_York'
   workflow_dispatch:
 
 permissions:
