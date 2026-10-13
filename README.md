@@ -8,12 +8,12 @@ My recent work includes production LLM pipelines, MCP-based tools, and Kubernete
 
 Every token my AI coding agents burn is metered — Claude Code, Codex CLI, and Antigravity session logs sync to Postgres via a small usage-collector script, and a nightly Action rebuilds this section from the database.
 
-**9.23B tokens processed** · **54,993 requests** · **17 models** · since March 2026
+**10.7B tokens processed** · **59,556 requests** · **17 models** · since March 2026
 
 | Agent | Requests | Input | Output | Cache reads |
 |---|--:|--:|--:|--:|
-| 🟠 Claude Code (Anthropic) | 51,716 | 3.5M | 68.6M | 8.45B |
-| ⚪ Codex CLI (OpenAI) | 3,105 | 10.4M | 1.2M | 319.8M |
+| 🟠 Claude Code (Anthropic) | 56,266 | 3.5M | 76.6M | 9.88B |
+| ⚪ Codex CLI (OpenAI) | 3,118 | 10.5M | 1.2M | 320.2M |
 | 🔵 Antigravity (Google) | 172 | 1.1M | 183K | 15.4M |
 
 <details>
@@ -21,12 +21,12 @@ Every token my AI coding agents burn is metered — Claude Code, Codex CLI, and 
 
 | Model | Output | Requests |
 |---|--:|--:|
-| claude-fable-5-1 | 32.9M | 11,882 |
+| claude-fable-5-1 | 36.6M | 12,783 |
 | claude-fable-5 | 21.2M | 15,124 |
 | claude-opus-5 | 6.1M | 12,708 |
+| claude-opus-5-5 | 5.2M | 7,055 |
 | claude-opus-4-8 | 4.9M | 4,721 |
 | claude-sonnet-4-6 | 1.3M | 1,866 |
-| claude-opus-5-5 | 952K | 3,406 |
 | gpt-5.6-sol | 762K | 2,058 |
 | claude-opus-4-6 | 639K | 874 |
 | claude-sonnet-5 | 479K | 659 |
@@ -34,16 +34,16 @@ Every token my AI coding agents burn is metered — Claude Code, Codex CLI, and 
 
 </details>
 
-**Last 30 days** — tokens/day, peak 3.6M on Oct 10
+**Last 30 days** — tokens/day, peak 8.4M on Oct 12
 
 ```text
-                                                      █    
-                                                      █   █
-  █           █                                       █   █
-  █           █                               █       █   █
-█ █     █ █   █ █   █         █         █     █   █   █   █
+                                                        █  
+                                                        █  
+                                                        █  
+                                                    █   █  
+█           █                                       █   █ █
 █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █
 ```
 
-<sub>Updated 2026-10-12 · input/output exclude cache reads</sub>
+<sub>Updated 2026-10-13 · input/output exclude cache reads</sub>
 <!-- usage:end -->
