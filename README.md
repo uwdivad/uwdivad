@@ -8,11 +8,11 @@ My recent work includes production LLM pipelines, MCP-based tools, and Kubernete
 
 Every token my AI coding agents burn is metered — Claude Code, Codex CLI, and Antigravity session logs sync to Postgres via a small usage-collector script, and a nightly Action rebuilds this section from the database.
 
-**10.7B tokens processed** · **59,556 requests** · **17 models** · since March 2026
+**10.8B tokens processed** · **59,938 requests** · **17 models** · since March 2026
 
 | Agent | Requests | Input | Output | Cache reads |
 |---|--:|--:|--:|--:|
-| 🟠 Claude Code (Anthropic) | 56,266 | 3.5M | 76.6M | 9.88B |
+| 🟠 Claude Code (Anthropic) | 56,648 | 3.5M | 77.1M | 9.95B |
 | ⚪ Codex CLI (OpenAI) | 3,118 | 10.5M | 1.2M | 320.2M |
 | 🔵 Antigravity (Google) | 172 | 1.1M | 183K | 15.4M |
 
@@ -24,7 +24,7 @@ Every token my AI coding agents burn is metered — Claude Code, Codex CLI, and 
 | claude-fable-5-1 | 36.6M | 12,783 |
 | claude-fable-5 | 21.2M | 15,124 |
 | claude-opus-5 | 6.1M | 12,708 |
-| claude-opus-5-5 | 5.2M | 7,055 |
+| claude-opus-5-5 | 5.8M | 7,437 |
 | claude-opus-4-8 | 4.9M | 4,721 |
 | claude-sonnet-4-6 | 1.3M | 1,866 |
 | gpt-5.6-sol | 762K | 2,058 |
@@ -37,13 +37,13 @@ Every token my AI coding agents burn is metered — Claude Code, Codex CLI, and 
 **Last 30 days** — tokens/day, peak 8.4M on Oct 12
 
 ```text
-                                                        █  
-                                                        █  
-                                                        █  
-                                                    █   █  
-█           █                                       █   █ █
+                                                      █    
+                                                      █    
+                                                      █    
+                                                  █   █    
+          █                                       █   █ █  
 █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █
 ```
 
-<sub>Updated 2026-10-13 · input/output exclude cache reads</sub>
+<sub>Updated 2026-10-14 · input/output exclude cache reads</sub>
 <!-- usage:end -->
