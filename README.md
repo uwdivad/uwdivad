@@ -8,11 +8,11 @@ My recent work includes production LLM pipelines, MCP-based tools, and Kubernete
 
 Every token my AI coding agents burn is metered — Claude Code, Codex CLI, and Antigravity session logs sync to Postgres via a small usage-collector script, and a nightly Action rebuilds this section from the database.
 
-**11.7B tokens processed** · **63,587 requests** · **17 models** · since March 2026
+**11.7B tokens processed** · **63,890 requests** · **18 models** · since March 2026
 
 | Agent | Requests | Input | Output | Cache reads |
 |---|--:|--:|--:|--:|
-| 🟠 Claude Code (Anthropic) | 60,297 | 3.6M | 85.7M | 10.8B |
+| 🟠 Claude Code (Anthropic) | 60,600 | 3.6M | 86.5M | 10.9B |
 | ⚪ Codex CLI (OpenAI) | 3,118 | 10.5M | 1.2M | 320.2M |
 | 🔵 Antigravity (Google) | 172 | 1.1M | 183K | 15.4M |
 
@@ -27,23 +27,23 @@ Every token my AI coding agents burn is metered — Claude Code, Codex CLI, and 
 | claude-opus-5 | 6.1M | 12,708 |
 | claude-opus-4-8 | 5.1M | 4,821 |
 | claude-sonnet-4-6 | 1.3M | 1,866 |
+| claude-fable-5-2 | 781K | 303 |
 | gpt-5.6-sol | 762K | 2,058 |
 | claude-opus-4-6 | 639K | 874 |
 | claude-sonnet-5 | 479K | 659 |
-| gpt-5.5 | 308K | 742 |
 
 </details>
 
 **Last 30 days** — tokens/day, peak 4.4M on Oct 30
 
 ```text
-                              █                            
-                              █                            
-                              █                            
-                              █                            
-  █   █                       █                            
-  █ █ █ █       █     █ █     █     █ █ █                  
+                            █                              
+                            █                              
+                            █                              
+                            █                              
+█   █                       █                             █
+█ █ █ █       █     █ █     █     █ █ █                   █
 ```
 
-<sub>Updated 2026-11-13 · input/output exclude cache reads</sub>
+<sub>Updated 2026-11-14 · input/output exclude cache reads</sub>
 <!-- usage:end -->
