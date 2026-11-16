@@ -37,13 +37,13 @@ Every token my AI coding agents burn is metered — Claude Code, Codex CLI, and 
 **Last 30 days** — tokens/day, peak 4.4M on Oct 30
 
 ```text
-                          █                                
-                          █                                
-                          █                                
-                          █                             █  
-  █                       █                             █  
-█ █ █       █     █ █     █     █ █ █                   █  
+                        █                                  
+                        █                                  
+                        █                                  
+                        █                             █    
+█                       █                             █    
+█ █       █     █ █     █     █ █ █                   █    
 ```
 
-<sub>Updated 2026-11-15 · input/output exclude cache reads</sub>
+<sub>Updated 2026-11-16 · input/output exclude cache reads</sub>
 <!-- usage:end -->
